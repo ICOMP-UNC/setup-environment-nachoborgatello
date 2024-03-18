@@ -1,0 +1,9 @@
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/CMakeFiles/FistProjectInCMake.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/CMakeFiles/edit_cache.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/CMakeFiles/rebuild_cache.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libdyn/CMakeFiles/DynamicLib.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libdyn/CMakeFiles/edit_cache.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libdyn/CMakeFiles/rebuild_cache.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libsta/CMakeFiles/StaticLib.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libsta/CMakeFiles/edit_cache.dir
+/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libsta/CMakeFiles/rebuild_cache.dir
