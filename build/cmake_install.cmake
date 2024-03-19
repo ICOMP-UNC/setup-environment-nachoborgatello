@@ -44,8 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/nacho/Desktop/setup-environment-nachoborgatello/build/_deps/unity-build/cmake_install.cmake")
   include("/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libdyn/cmake_install.cmake")
   include("/home/nacho/Desktop/setup-environment-nachoborgatello/build/lib/libsta/cmake_install.cmake")
+  include("/home/nacho/Desktop/setup-environment-nachoborgatello/build/tests/cmake_install.cmake")
 
 endif()
 

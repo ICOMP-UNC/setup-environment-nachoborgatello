@@ -1,8 +1,0 @@
-# ninja log v5
-0	91	1710804081065495198	CMakeFiles/FistProjectInCMake.dir/src/greetings.c.o	8e7ccf3ebc2528cd
-1	108	1710804081081495158	CMakeFiles/FistProjectInCMake.dir/src/main.c.o	c331928743941312
-3	189	1710804081161494955	lib/libdyn/CMakeFiles/DynamicLib.dir/src/shared.c.o	4b6d95de4ed23e7e
-91	222	1710804081193494875	lib/libsta/CMakeFiles/StaticLib.dir/src/static.c.o	750f6a00574c71d9
-189	288	1710804081261494701	lib/libdyn/libDynamicLib.so	328bb534d585e491
-222	443	1710804081409494327	lib/libsta/libStaticLib.a	c012c8b68c2bd8cc
-443	579	1710804081549493972	FistProjectInCMake	6da1c3e8b1316e7
