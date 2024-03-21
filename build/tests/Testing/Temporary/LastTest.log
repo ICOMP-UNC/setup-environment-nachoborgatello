@@ -1,10 +1,10 @@
-Start testing: Mar 21 15:31 -03
+Start testing: Mar 21 17:15 -03
 ----------------------------------------------------------
 1/1 Testing: test_FistProjectInCMake
 1/1 Test: test_FistProjectInCMake
 Command: "/home/nacho/Desktop/setup-environment-nachoborgatello/build/tests/test_FistProjectInCMake"
 Directory: /home/nacho/Desktop/setup-environment-nachoborgatello/build/tests
-"test_FistProjectInCMake" start time: Mar 21 15:31 -03
+"test_FistProjectInCMake" start time: Mar 21 17:15 -03
 Output:
 ----------------------------------------------------------
 /home/nacho/Desktop/setup-environment-nachoborgatello/tests/unit/test_unit_program.c:34:test_logic_add:PASS
@@ -19,8 +19,8 @@ OK
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_FistProjectInCMake" end time: Mar 21 15:31 -03
+"test_FistProjectInCMake" end time: Mar 21 17:15 -03
 "test_FistProjectInCMake" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 21 15:31 -03
+End testing: Mar 21 17:15 -03

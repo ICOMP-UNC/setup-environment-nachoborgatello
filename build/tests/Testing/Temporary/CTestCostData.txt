@@ -1,2 +1,2 @@
-test_FistProjectInCMake 1 0.00314389
+test_FistProjectInCMake 1 0.00295614
 ---
