@@ -1,5 +1,5 @@
 # Request the minimum version of CMake
-cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.00 FATAL_ERROR)
 
 # Include headers
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../include)

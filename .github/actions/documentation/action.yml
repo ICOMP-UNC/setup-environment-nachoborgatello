@@ -10,32 +10,35 @@ runs:
           # We only make check, not changes
           DOX_CONF_FILE=$(pwd)/Doxyfile
 
-          # ToDo: Add documentation about this command and describe better
+          # This command is used to create a Doxyfile
+          # The script reads an existing Doxygen configuration file ($DOX_CONF_FILE), appends a 
+          # line specifying input directories (src, include, and lib), and then overwrites the original 
+          # configuration file with the updated content.
           {
               cat $DOX_CONF_FILE
               echo "INPUT" = $(pwd)/src $(pwd)/include $(pwd)/lib
           } > $DOX_CONF_FILE
 
           # Generate documentation
-          # ToDo: Add documentation about this command and describe better
+          # This command generate the documentation
           sudo dot -c
 
           ERROR_FILE_FLAG=$(pwd)/dox_errors.txt
 
-          # ToDo: Add documentation and describe better this command
+          # check if all files are documented correctly
           DOXYGEN_COMMAND=$(doxygen -s $DOX_CONF_FILE) > $ERROR_FILE_FLAG
 
           if [ -s $ERROR_FILE_FLAG ]; then
               echo "Error: There are some files that are not documented correctly"
               exit 1
           else
-              echo "All files are documented correctly. Niiiceee"
+              echo "All files are documented correctly. Nice"
               exit 0
           fi
     # Upload errors as an artifact, when failed
     - uses: actions/upload-artifact@v3
       if: failure()
       with:
-        name: Doxygen errors!!!
+        name: Doxygen errors!
         path: $(pwd)/dox_errors.txt
         retention-days: 1
