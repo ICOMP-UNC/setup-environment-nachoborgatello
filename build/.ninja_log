@@ -1,0 +1,14 @@
+# ninja log v5
+0	171	1711045864493422150	CMakeFiles/FistProjectInCMake.dir/src/greetings.c.o	8e7ccf3ebc2528cd
+14	190	1711045864509421954	CMakeFiles/FistProjectInCMake.dir/src/logic.c.o	547aef633d094bcc
+34	203	1711045864525421761	CMakeFiles/FistProjectInCMake.dir/src/main.c.o	c331928743941312
+204	398	1711045864709419518	lib/libsta/CMakeFiles/StaticLib.dir/src/static.c.o	750f6a00574c71d9
+191	418	1711045864737419178	lib/libdyn/CMakeFiles/DynamicLib.dir/src/shared.c.o	4b6d95de4ed23e7e
+418	560	1711045864881417425	lib/libdyn/libDynamicLib.so	328bb534d585e491
+399	694	1711045864997416014	lib/libsta/libStaticLib.a	c012c8b68c2bd8cc
+561	798	1711045865117414563	tests/CMakeFiles/test_FistProjectInCMake.dir/unit/test_unit_program.c.o	1f9b2be52a980f03
+694	919	1711045865209413450	FistProjectInCMake	caa0623e4bb8273f
+798	955	1711045865277412629	tests/CMakeFiles/test_FistProjectInCMake.dir/__/src/logic.c.o	187502ec439fd711
+172	961	1711045865281412583	_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o	ff761b71e515fa5
+963	1176	1711045865493410021	_deps/unity-build/libunity.a	3590d5daf5fa518f
+1176	1288	1711045865609408620	tests/test_FistProjectInCMake	d459ddd120d151de
